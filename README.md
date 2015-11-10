@@ -12,3 +12,4 @@ creating new project
 
 Migrating models
 - python manage.py makemigrations "name of module / app"
+- python manage.py migrate
