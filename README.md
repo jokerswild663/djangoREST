@@ -8,4 +8,7 @@ first steps
 - cd ~/djangoRestTutorial/REST && python manage.py migrate 
 
 creating new project
-- cd ~/djangoRestTutorial/REST && python manage.py startapp "name of new project"
+- cd ~/djangoRestTutorial/REST && python manage.py startapp "name of new module"
+
+Migrating models
+- python manage.py makemigrations "name of module / app"
