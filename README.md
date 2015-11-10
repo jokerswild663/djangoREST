@@ -11,5 +11,6 @@ creating new project
 - cd ~/djangoRestTutorial/REST && python manage.py startapp "name of new module"
 
 Migrating models
+- add models to ~/"app name"/models.py file
 - python manage.py makemigrations "name of module / app"
 - python manage.py migrate
