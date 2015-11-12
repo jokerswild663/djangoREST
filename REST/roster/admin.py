@@ -4,7 +4,9 @@ from .models import Team
 
 # Register your models here.
 class TeamAdmin(admin.ModelAdmin):
-    fields = ['creation_date', 'name_text']
-
+    fieldsets = [
+            (None,  {'fields': ['name_text']}),
+            ('Date created', {'fields': ['creation_date']}),
+    ]
 
 admin.site.register(Team,TeamAdmin)
